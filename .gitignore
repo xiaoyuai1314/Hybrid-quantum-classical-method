@@ -1,0 +1,16 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 本地环境
+.venv/
+venv/
+
+# 新计算的输出
+results/
+cpc60_results/
+multimode_results/
+
+# 日志
+*.log
