@@ -1,0 +1,2 @@
+# Hybrid-quantum-classical-method
+这是在复现一篇文献时学习的一个新方法和新的理解电子态动力学的程序和方法
