@@ -1,0 +1,107 @@
+{
+  "doi": "10.1063/5.0185076",
+  "table": "Table I, paper p. 8 / PDF p. 9",
+  "csv_name": "MSH-4State-conf2-param.csv",
+  "csv_sha256": "9ac84ec8054d153f696b13ac65c44fc365c17b1488c0596f76fb57072a5ee5f0",
+  "conformation": 2,
+  "temperature_K": 300.0,
+  "state_order": [
+    "pi-pi*",
+    "CT1",
+    "CT2",
+    "G"
+  ],
+  "frequency_rows": 200,
+  "directions_per_frequency": 3,
+  "nuclear_coordinates": 600,
+  "csv_column_interpretation": "Sj_an = S_j^(a,n); a=1..3, n=1..4",
+  "flattened_coordinate_order": "mu=3*j+a (j,a zero-based)",
+  "epsilon_ev": [
+    0.0,
+    -0.268,
+    -0.779
+  ],
+  "gamma_ev": [
+    [
+      0,
+      0.088,
+      0.00011
+    ],
+    [
+      0.088,
+      0,
+      0.00012
+    ],
+    [
+      0.00011,
+      0.00012,
+      0
+    ]
+  ],
+  "reorganization_ev_from_csv": [
+    [
+      0.0,
+      0.311280640990017,
+      1.506846572463244,
+      0.12738899763039846
+    ],
+    [
+      0.311280640990017,
+      0.0,
+      1.3159551472570963,
+      0.5585843341110546
+    ],
+    [
+      1.506846572463244,
+      1.3159551472570963,
+      0.0,
+      1.699420148545016
+    ],
+    [
+      0.12738899763039846,
+      0.5585843341110546,
+      1.699420148545016,
+      0.0
+    ]
+  ],
+  "reorganization_ev_table": [
+    [
+      0.0,
+      0.311,
+      1.507,
+      0.127
+    ],
+    [
+      0.311,
+      0.0,
+      1.316,
+      0.559
+    ],
+    [
+      1.507,
+      1.316,
+      0.0,
+      1.699
+    ],
+    [
+      0.127,
+      0.559,
+      1.699,
+      0.0
+    ]
+  ],
+  "max_reorganization_difference_ev": 0.00042014854501593035,
+  "all_six_pairs_match_table_rounding": true,
+  "min_omega_au": 1.250500321113027e-07,
+  "max_omega_au": 0.008455845376284367,
+  "shortest_period_fs": 17.97371851570994,
+  "longest_period_fs": 1215377.4136613398,
+  "expanded_system_diagonal_ev": [
+    0.12738899763039846,
+    0.2905843341110545,
+    0.920420148545016
+  ],
+  "max_expansion_identity_error_hartree": 5.551115123125783e-17,
+  "nuclear_initial_state": "thermal Wigner on G; a0=(1,0,0)",
+  "electronic_propagation": "three excited states only; Gamma_nG=0"
+}

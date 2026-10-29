@@ -1,0 +1,9 @@
+{
+  "loose_rtol": 1e-09,
+  "loose_atol": 1e-11,
+  "tight_rtol": 1e-11,
+  "tight_atol": 1e-13,
+  "ntraj": 4,
+  "t_end_fs": 10,
+  "max_density_element_difference": 7.936181312118151e-08
+}
